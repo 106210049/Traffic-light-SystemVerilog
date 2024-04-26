@@ -20,21 +20,17 @@ module Second_counter #(parameter pMAX_VAL=99)
   always_ff@(posedge clk or negedge rst_n)	begin: cnt_proc
     if(!rst_n)	begin
       int_count<=pMAX_VAL;
-      count=int_count;
     end
     else if(en)	begin
       if(|int_count)	begin
-        int_count=int_count-1;
-        count=int_count;
+        int_count<=int_count-1;
       end
       else	begin
         int_count<=pMAX_VAL;
-        count=int_count;
       end
     end
     else	begin
       int_count<=pMAX_VAL;
-      count<=int_count;
     end
   end: cnt_proc
   assign last=(int_count==0)? 1'b1:1'b0;
