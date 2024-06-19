@@ -1,4 +1,4 @@
-![image](https://github.com/106210049/Traffic-light-SystemVerilog/assets/105693455/e9c40eef-3bf0-468c-a565-52a25c7fe04f)# Traffic Light Control:
+# Traffic Light Control:
 
 ## 1. Design Specifications:
 Design a traffic light controller using FSM and following specification:
