@@ -532,4 +532,5 @@ endmodule: Traffic_light
 
 <img src="Image/LOGFILE.png" width="600">  
 
+My code in EDA Playground: [Traffic Light Synopsys](https://edaplayground.com/x/QnKh)
 
