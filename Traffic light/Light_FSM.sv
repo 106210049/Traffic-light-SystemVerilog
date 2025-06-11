@@ -12,10 +12,13 @@ module Light_FSM #(parameter LIGHT_STATE_WIDTH=3)(
     timeunit 1ps;
     timeprecision 1ps;
   `endif
+  // index of light
   localparam pGREEN_IDX=0;
   localparam pYELLOW_IDX=1;
   localparam pRED_IDX=2;
+  
   localparam STATE_WIDTH=2;
+  // State of traffic light
   typedef enum logic[STATE_WIDTH-1:0]{
     IDLE,
     GREEN,
@@ -32,6 +35,8 @@ module Light_FSM #(parameter LIGHT_STATE_WIDTH=3)(
   assign last_cnt=light_cnt_last&second_cnt_pre_last;
   assign light=signal_current_state.light;
   assign light_cnt_init=signal_current_state.light_cnt_init;
+  
+  // sequential circuit to set state of traffic light
   always_ff@(posedge clk or negedge rst_n)	begin: fsm_ff_proc
     if(!rst_n)	begin
       light_current_state<=IDLE;
@@ -47,6 +52,7 @@ module Light_FSM #(parameter LIGHT_STATE_WIDTH=3)(
     end
   end: fsm_ff_proc
   
+  // combination circuit to check state and let me know what is next state
   always_comb	begin: fsm_comb_proc
       light_next_state=IDLE;
       signal_next_state='{default:0};

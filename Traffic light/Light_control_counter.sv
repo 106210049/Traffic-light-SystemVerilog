@@ -25,6 +25,7 @@ module Light_Counter #(
   reg [pINIT_WIDTH-1:0] init_tmp;
 //   enum integer {pGREEN_IDX=0,pYELLOW_IDX=1,pRED_IDX=2} index;
 //   index idx;
+  
   always_ff@(posedge clk or negedge rst_n )	begin:	cnt_proc
     if(!rst_n)	begin
       cnt_out<=pGREEN_INIT_VAL;
