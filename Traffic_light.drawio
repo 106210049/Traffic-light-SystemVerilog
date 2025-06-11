@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kDsnMvRK7NPilq3u9rw1" name="Decimal Split">
-    <mxGraphModel dx="1226" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="496" dy="251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1135,8 +1135,8 @@
         <mxCell id="27Y7KVL-H7aQzZeZ_W5q-78" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="27Y7KVL-H7aQzZeZ_W5q-75">
           <mxGeometry y="10" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="27Y7KVL-H7aQzZeZ_W5q-81" value="number[5:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="580" width="70" height="20" as="geometry" />
+        <mxCell id="27Y7KVL-H7aQzZeZ_W5q-81" value="number&lt;div&gt;[5:0]&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="575" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
