@@ -479,11 +479,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="kDsnMvRK7NPilq3u9rw1" name="Page-4">
+  <diagram id="kDsnMvRK7NPilq3u9rw1" name="Decimal Split">
     <mxGraphModel dx="1226" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6AV2-RE4c0SxfrV1CoKK-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="430" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="6AV2-RE4c0SxfrV1CoKK-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFB3;" vertex="1" parent="1">
           <mxGeometry x="60" y="360" width="700" height="460" as="geometry" />
         </mxCell>
