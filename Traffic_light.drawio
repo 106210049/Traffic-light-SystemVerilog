@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kDsnMvRK7NPilq3u9rw1" name="Page-4">
-    <mxGraphModel dx="1148" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -932,6 +932,18 @@
         </mxCell>
         <mxCell id="6AV2-RE4c0SxfrV1CoKK-61" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.inverter_2" vertex="1" parent="1">
           <mxGeometry x="640" y="475" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6AV2-RE4c0SxfrV1CoKK-64" value="en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6AV2-RE4c0SxfrV1CoKK-65" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="533" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6AV2-RE4c0SxfrV1CoKK-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="538" as="sourcePoint" />
+            <mxPoint x="280" y="538" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
